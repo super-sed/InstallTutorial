@@ -56,9 +56,13 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background: #159957 url("/lib/index-hero.e528a3b1fd01.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-image: url("/lib/index-hero.e528a3b1fd01.png");
+  background-color: #159957;
   height: 436px;
 (120deg, #155799, #159957); }
+
 @media screen and (min-width: 64em) {
   .page-header {
     padding: 5rem 6rem; } }
