@@ -18,8 +18,8 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(196, 196, 196, 0.4);
   border-color: rgba(255, 255, 255, 0.2);
   border-style: solid;
   border-width: 1px;
@@ -29,9 +29,9 @@ a {
     margin-left: 1rem; }
 
 .btn:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.7);
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.28);
   border-color: rgba(255, 255, 255, 0.3); }
 
 @media screen and (min-width: 64em) {
@@ -57,7 +57,8 @@ a {
   color: #fff;
   text-align: center;
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: right;
+  background-size: cover;
   background-image: url("../images/index-hero.e528a3b1fd01.png");
   background-color: #47b3f6;
   height: 436px;
@@ -183,7 +184,6 @@ a {
   display: block;
   width: 100%;
   overflow: auto;
-  word-break: normal;
   word-break: keep-all; }
   .main-content table th {
     font-weight: bold; }

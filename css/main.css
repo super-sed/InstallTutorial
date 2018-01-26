@@ -7,8 +7,23 @@
      background-position: center;
  }
 
-img { height: auto; width: auto\9; }
+img {
 
+}
 body{
      background-color: #96d5f6;
+}
+
+.btn-a{
+     width: 80%
+}
+.btn{
+     font-size: 24px;
+     font-weight: bold;
+}
+.btn-b{
+     color: #332993
+}
+.aca{
+     color: #332993;
 }
