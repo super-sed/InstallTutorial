@@ -1,4 +1,4 @@
-* {
+ {
   box-sizing: border-box; }
 
 body {
@@ -56,9 +56,10 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
-
+  background: #159957 url("/lib/index-hero.e528a3b1fd01.png");
+  width: 1448px;
+  height: 436px;
+(120deg, #155799, #159957); }
 @media screen and (min-width: 64em) {
   .page-header {
     padding: 5rem 6rem; } }
@@ -179,7 +180,6 @@ a {
   display: block;
   width: 100%;
   overflow: auto;
-  word-break: normal;
   word-break: keep-all; }
   .main-content table th {
     font-weight: bold; }
