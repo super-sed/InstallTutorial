@@ -80,17 +80,18 @@ a {
   margin-top: 0;
   margin-bottom: 0.1rem; }
 
+/*标题大小 完全*/
 @media screen and (min-width: 64em) {
   .project-name {
-    font-size: 3.25rem; } }
-
+    font-size: 600%; } }
+/*标题大小 手机*/
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-name {
-    font-size: 2.25rem; } }
-
+    font-size: 400%; } }
+/*标题大小 小手机*/
 @media screen and (max-width: 42em) {
   .project-name {
-    font-size: 1.75rem; } }
+    font-size: 300%; } }
 
 .project-tagline {
   margin-bottom: 2rem;
