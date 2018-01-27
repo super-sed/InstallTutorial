@@ -27,3 +27,20 @@ body{
 .aca{
      color: #332993;
 }
+
+
+.main-content h3{
+     color: #19663f
+}
+
+.main-content-a h2{
+    font-size: 25px;
+    color: #000000
+}
+
+.main-content table-a td{
+    border: 3px solid blue
+}
+.main-content table-a th{
+    border: 3px solid blue
+}
